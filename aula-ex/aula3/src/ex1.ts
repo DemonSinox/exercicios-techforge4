@@ -13,7 +13,7 @@ class Veiculo{
     public detalhes(){
       console.log(`Plca do veiculo é ${this.placa} com ${this.cilindrada}`)
     }
-  }
+}
   class Moto extends Veiculo{
 
     protected modelo:string;
@@ -27,4 +27,7 @@ class Veiculo{
       super.detalhes();
       console.log('sendo seu modelo'+this.modelo)
     }
-  }
+}
+let moto = new Moto("CG 160", 983723, 160)
+
+moto.detalhes();

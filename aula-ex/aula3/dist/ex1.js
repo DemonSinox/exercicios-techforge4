@@ -20,3 +20,5 @@ class Moto extends Veiculo {
         console.log('sendo seu modelo' + this.modelo);
     }
 }
+let moto = new Moto("CG 160", 983723, 160);
+moto.detalhes();
